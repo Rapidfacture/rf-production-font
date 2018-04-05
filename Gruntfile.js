@@ -1,9 +1,9 @@
 
 module.exports = function (grunt) {
    grunt.loadNpmTasks('grunt-eslint');
-   grunt.loadNpmTasks('grunt-grunticon');
+   grunt.loadNpmTasks('grunt-webfont');
 
-   grunt.registerTask('default', ['eslint', 'grunticon:myIcons']);
+   grunt.registerTask('default', ['eslint', 'webfont']);
 
 
    grunt.initConfig({
@@ -16,29 +16,19 @@ module.exports = function (grunt) {
          target: ['common/**/*.*js']
       },
 
-      grunticon: {
-         myIcons: {
-            files: [{
-               expand: true,
-               cwd: './src',
-               src: '*.svg',
-               dest: 'font'
-            }],
+      webfont: {
+         icons: {
+            src: 'src/*.svg',
+            dest: 'font',
             options: {
-               datasvgcss: 'rf-production-font-svg.css',
-               datapngcss: 'rf-production-font-png.css',
-               urlpngcss: 'png-fallback.css',
-               previewhtml: 'icons-reference.html',
-               pngfolder: 'png',
-               cssprefix: '.rf-',
-               previewTemplate: './view/reference-template.hbs',
-               prefixClass: '.rf .rf-',
-               enhanceSVG: true,
-               corsEmbed: true
+               font: 'rf-production-font',
+               templateOptions: {
+                  baseClass: 'rf',
+                  classPrefix: 'rf-'
+               }
             }
          }
       }
-
 
    });
 };

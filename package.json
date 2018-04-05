@@ -19,7 +19,7 @@
   "devDependencies": {
     "grunt": "1.0.1",
     "grunt-eslint": "20.1.0",
-    "grunt-grunticon": "2.3.2"
+    "grunt-webfont": "^1.6.0"
   },
   "scripts": {
     "prepublish": "npm test",
