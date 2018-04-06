@@ -25,7 +25,7 @@ module.exports = function (grunt) {
                engine: 'node',
                font: 'rf-production-font',
                templateOptions: {
-                  baseClass: 'rf',
+                  baseClass: 'rf-icon',
                   classPrefix: 'rf-'
                }
             }
