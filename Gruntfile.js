@@ -21,6 +21,8 @@ module.exports = function (grunt) {
             src: 'src/*.svg',
             dest: 'font',
             options: {
+               htmlDemoFilename: 'rf-icons-reference',
+               engine: 'node',
                font: 'rf-production-font',
                templateOptions: {
                   baseClass: 'rf',
