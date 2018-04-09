@@ -1,20 +1,12 @@
 
 module.exports = function (grunt) {
-   grunt.loadNpmTasks('grunt-eslint');
    grunt.loadNpmTasks('grunt-webfont');
 
-   grunt.registerTask('default', ['eslint', 'webfont']);
+   grunt.registerTask('default', ['webfont']);
 
 
    grunt.initConfig({
       pkg: grunt.file.readJSON('package.json'),
-
-      eslint: {
-         options: {
-            configFile: '.eslintrc'
-         },
-         target: ['common/**/*.*js']
-      },
 
       webfont: {
          icons: {
