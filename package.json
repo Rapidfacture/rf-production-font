@@ -21,7 +21,6 @@
     "grunt-webfont": "^1.6.0"
   },
   "scripts": {
-    "prepublish": "npm test",
-    "test": "grunt"
+    "prepublish": "npm test"
   }
 }
