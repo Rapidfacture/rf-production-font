@@ -1,26 +1,21 @@
-# rf-frontend-common
+# rf-production-font
 
-Common Frontend components like style, modal, images.
-JS Requires Angular (Factories, Directives)
+Creates a font-files from svg-files in Folder src
 
 ## Installation
 
-* exclude the folder `global/common` from git in your `.gitignore`
+* exclude the folder `?????` from git in your `.gitignore`
 ```
 global/common
 ```
-* add actual version of `rf-frontend-common` to you package.json
+* add actual version of `rf-production-font` to you package.json
 
-* copy the `common` folder from this package into your project using grunt
-* include the important required files (variables.scss, etc.) in correct order - stick to other grunt files
+* copy the `font` folder from this package into your project using grunt
+* include the important required files (.css, .eot, .ttf, .woff, .html) in the folder font.
 
 
 
 ## Development
-* edit the files in the common folder in your project
-* when working correct, update the `rf-frontend-common` project
+* add svg-files in the src folder in your project
+* when working correct, update the `rf-production-font` project
 * push the new version to our server and publish on npm
-
-
-## ToDo
-* share dialog
