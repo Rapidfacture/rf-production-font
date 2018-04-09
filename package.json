@@ -2,7 +2,7 @@
   "name": "rf-production-font",
   "description": "Rapidfacture iconfont for production",
   "version": "0.0.1",
-  "license": "MIT",
+  "license": "LICENSE",
   "repository": {
     "type": "git",
     "url": "git@github.com:RAPIDFACTURE/rf-production-font.git"

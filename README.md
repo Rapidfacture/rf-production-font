@@ -2,6 +2,9 @@
 
 Creates a font-files from svg-files in Folder src
 
+* free for private use only. If you want to use it commercially, feel free to
+* contact us.
+
 ## Installation
 
 * add actual version of `rf-production-font` to you package.json
@@ -12,5 +15,6 @@ Creates a font-files from svg-files in Folder src
 
 ## Development
 * add svg-files in the src folder in your project
+* create the icon font using `grunt`
 * when working correct, update the `rf-production-font` project
-* push the new version to our server and publish on npm
+* push the new version to our server and publish on npm using `np`
