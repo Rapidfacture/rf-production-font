@@ -4,13 +4,10 @@ Creates a font-files from svg-files in Folder src
 
 ## Installation
 
-* exclude the folder `?????` from git in your `.gitignore`
-
 * add actual version of `rf-production-font` to you package.json
-
-* copy the `font` folder from this package into your project using grunt
-* include the important required files (.css, .eot, .ttf, .woff, .html) in the folder font.
-
+* copy the `font` folder (it includes .css, .eot, .ttf, .woff) from this package to our webserver
+* and add the .css to your index.html
+* for reference of the icons see the file font/rf-icons-reference.html
 
 
 ## Development
