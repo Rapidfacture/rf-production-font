@@ -3,10 +3,10 @@
 
 @font-face {
 	font-family:"rf-production-font";
-	src:url("rf-production-font.eot?2d5dc48fb70db38e144523c5cf29c5e4");
+	src:url("rf-production-font.eot?adb2371cd31d7a7d9ef9c814601ca0dd");
 	src:url("rf-production-font.eot?#iefix") format("embedded-opentype"),
-		url("rf-production-font.woff?2d5dc48fb70db38e144523c5cf29c5e4") format("woff"),
-		url("rf-production-font.ttf?2d5dc48fb70db38e144523c5cf29c5e4") format("truetype");
+		url("rf-production-font.woff?adb2371cd31d7a7d9ef9c814601ca0dd") format("woff"),
+		url("rf-production-font.ttf?adb2371cd31d7a7d9ef9c814601ca0dd") format("truetype");
 	font-weight:normal;
 	font-style:normal;
 }
@@ -92,7 +92,7 @@
 }
 
 
-.rf-cutt-part:before {
+.rf-cut-part:before {
 	content:"\f10d";
 }
 
