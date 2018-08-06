@@ -3,10 +3,10 @@
 
 @font-face {
 	font-family:"rf-production-font";
-	src:url("rf-production-font.eot?52e26533bb7b663ae0d1e49a3af09484");
+	src:url("rf-production-font.eot?e7c6a29cdbe54201179283c1e914a3e9");
 	src:url("rf-production-font.eot?#iefix") format("embedded-opentype"),
-		url("rf-production-font.woff?52e26533bb7b663ae0d1e49a3af09484") format("woff"),
-		url("rf-production-font.ttf?52e26533bb7b663ae0d1e49a3af09484") format("truetype");
+		url("rf-production-font.woff?e7c6a29cdbe54201179283c1e914a3e9") format("woff"),
+		url("rf-production-font.ttf?e7c6a29cdbe54201179283c1e914a3e9") format("truetype");
 	font-weight:normal;
 	font-style:normal;
 }
@@ -142,116 +142,126 @@
 }
 
 
-.rf-knurling:before {
+.rf-keyboard-typing:before {
 	content:"\f117";
 }
 
 
-.rf-label:before {
+.rf-knurling:before {
 	content:"\f118";
 }
 
 
-.rf-laser:before {
+.rf-label:before {
 	content:"\f119";
 }
 
 
-.rf-maintenance:before {
+.rf-laser:before {
 	content:"\f11a";
 }
 
 
-.rf-material:before {
+.rf-maintenance:before {
 	content:"\f11b";
 }
 
 
-.rf-measure:before {
+.rf-material:before {
 	content:"\f11c";
 }
 
 
-.rf-milling:before {
+.rf-measure:before {
 	content:"\f11d";
 }
 
 
-.rf-output-check:before {
+.rf-milling:before {
 	content:"\f11e";
 }
 
 
-.rf-output-time:before {
+.rf-output-check:before {
 	content:"\f11f";
 }
 
 
-.rf-paint:before {
+.rf-output-time:before {
 	content:"\f120";
 }
 
 
-.rf-parcel:before {
+.rf-paint:before {
 	content:"\f121";
 }
 
 
-.rf-plane-grinding:before {
+.rf-parcel:before {
 	content:"\f122";
 }
 
 
-.rf-purchase:before {
+.rf-plane-grinding:before {
 	content:"\f123";
 }
 
 
-.rf-rework:before {
+.rf-purchase:before {
 	content:"\f124";
 }
 
 
-.rf-sawing:before {
+.rf-rework:before {
 	content:"\f125";
 }
 
 
-.rf-ship-intern:before {
+.rf-sawing:before {
 	content:"\f126";
 }
 
 
-.rf-show-history:before {
+.rf-scanner:before {
 	content:"\f127";
 }
 
 
-.rf-tailstock:before {
+.rf-ship-intern:before {
 	content:"\f128";
 }
 
 
-.rf-tap-turning:before {
+.rf-show-history:before {
 	content:"\f129";
 }
 
 
-.rf-tools:before {
+.rf-tailstock:before {
 	content:"\f12a";
 }
 
 
-.rf-unclamping:before {
+.rf-tap-turning:before {
 	content:"\f12b";
 }
 
 
-.rf-welding:before {
+.rf-tools:before {
 	content:"\f12c";
 }
 
 
-.rf-working-hours:before {
+.rf-unclamping:before {
 	content:"\f12d";
+}
+
+
+.rf-welding:before {
+	content:"\f12e";
+}
+
+
+.rf-working-hours:before {
+	content:"\f12f";
 }
