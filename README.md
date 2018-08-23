@@ -5,10 +5,20 @@ A Webfont for with symbold for prodction
 
 
 ## Installation
+* for reference of the icons see the file font/rf-icons-reference.html
 * add actual version of rf-production-font to you package.json
 * copy the font folder (it includes .css, .eot, .ttf, .woff) from this package to our webserver
-* and add the .css to your index.html
-* for reference of the icons see the file font/rf-icons-reference.html
+* and add the .css to the heas section of your index.html
+
+html
+<head>
+   <meta charset="utf-8">
+
+   <!-- add the font here -->
+   <link rel="stylesheet" href="static/rf-production-font/font/rf-production-font.css" type="text/css">
+
+   <script src="js/app.js"></script>
+</head>
 
 
 ## Development
