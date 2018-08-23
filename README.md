@@ -10,7 +10,7 @@ A Webfont for with symbold for prodction
 * copy the font folder (it includes .css, .eot, .ttf, .woff) from this package to our webserver
 * and add the .css to the heas section of your index.html
 
-html
+```html
 <head>
    <meta charset="utf-8">
 
@@ -19,7 +19,7 @@ html
 
    <script src="js/app.js"></script>
 </head>
-
+```
 
 ## Development
 * add svg-files in the src folder in your project
@@ -36,4 +36,5 @@ html
 
 ## License
 * free for private use only. If you want to use it commercially, feel free to contact us.
+* contribution is welcome
 * Rapidfacture GmbH, info@rapidfacture.com
