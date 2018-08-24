@@ -1,8 +1,7 @@
 # rf-production-font
 A Webfont for with symbold for prodction
 
-![rf-production-font-reference](https://github.com/Rapidfacture/rf-production-font/blob/master/rf-production-font-reference.png)
-
+<img src="rf-production-font-reference.png" width="600" alt="rf-production-font-reference" />
 
 ## Installation
 * for reference of the icons see the file font/rf-icons-reference.html
