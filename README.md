@@ -1,7 +1,7 @@
 # rf-production-font
 A Webfont for with symbold for prodction
 
-<img src="rf-production-font-reference.png" width="600" alt="rf-production-font-reference" />
+<img src="rf-production-font-reference.png" width="1000" alt="rf-production-font-reference" />
 
 ## Installation
 * for reference of the icons see the file font/rf-icons-reference.html
