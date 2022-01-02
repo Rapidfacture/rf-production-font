@@ -1,7 +1,7 @@
 {
   "name": "rf-production-font",
   "description": "Rapidfacture iconfont for production",
-  "version": "0.0.16",
+  "version": "0.5.0",
   "license": "LICENSE",
   "repository": {
     "type": "git",
