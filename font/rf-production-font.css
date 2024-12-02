@@ -4,10 +4,10 @@
 
 @font-face {
 	font-family:"rf-production-font";
-	src:url("rf-production-font.eot?7365a898141234d1032bf9646459a505");
-	src:url("rf-production-font.eot?7365a898141234d1032bf9646459a505#iefix") format("embedded-opentype"),
-		url("rf-production-font.woff?7365a898141234d1032bf9646459a505") format("woff"),
-		url("rf-production-font.ttf?7365a898141234d1032bf9646459a505") format("truetype");
+	src:url("rf-production-font.eot?9fc56e6479c253ed495e5ec8a8b83f89");
+	src:url("rf-production-font.eot?9fc56e6479c253ed495e5ec8a8b83f89#iefix") format("embedded-opentype"),
+		url("rf-production-font.woff?9fc56e6479c253ed495e5ec8a8b83f89") format("woff"),
+		url("rf-production-font.ttf?9fc56e6479c253ed495e5ec8a8b83f89") format("truetype");
 	font-weight:normal;
 	font-style:normal;
 }
@@ -172,7 +172,7 @@
 }
 
 
-.rf-gearing_P400:before {
+.rf-gearing-P400:before {
 	content:"\f11d";
 }
 
