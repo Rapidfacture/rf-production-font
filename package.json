@@ -1,7 +1,7 @@
 {
   "name": "rf-production-font",
   "description": "Rapidfacture iconfont for production",
-  "version": "0.5.5",
+  "version": "0.5.6",
   "license": "LICENSE",
   "repository": {
     "type": "git",
@@ -20,7 +20,5 @@
     "grunt": "1.5.3",
     "grunt-webfont": "^1.6.0"
   },
-  "scripts": {
-    "prepublish": "npm test"
-  }
+  "scripts": { }
 }
